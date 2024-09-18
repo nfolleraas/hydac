@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             /*
-            do 
+            do
             {
                 Console.Clear();
                 Console.WriteLine("Velkommen til tjek-ind system");

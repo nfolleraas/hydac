@@ -19,19 +19,21 @@ namespace Hydac_projekt {
             do 
             {
                 Console.Clear();
+
                 Console.Write("Indtast medarbejdernummer: ");
                 input = Console.ReadLine();
                 if (input.Length != 4)
                 {
                     Console.WriteLine("Forkert input. Medarbejdernummer skal være 4 cifre langt");
+                    Console.ReadKey();
                     godkendt = false;
-                    // Exception handling mangler
                 }
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < input.Length; i++)
                 {
                     if (!char.IsDigit(input[i]))
                     {
                         Console.WriteLine("Forkert input. Medarbejdernummer indeholder kun tal");
+                        Console.ReadKey();
                         godkendt = false;
                         break;
                     }
@@ -52,6 +54,7 @@ namespace Hydac_projekt {
                     if (!char.IsLetter(input[i]))
                     {
                         Console.WriteLine("Forkert input. Navn indeholder kun bogstaver");
+                        Console.ReadKey();
                         godkendt = false;
                     }
                 }
@@ -88,8 +91,8 @@ namespace Hydac_projekt {
 
                     default:
                         Console.WriteLine("Forkert valg. Prøv igen");
-                        break;
-                        // gå til input
+                        Console.ReadKey();
+                        break
                 }
             } while (godkendt == false);
 
