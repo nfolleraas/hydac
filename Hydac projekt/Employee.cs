@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Hydac_projekt {
-    internal class Employee
+    public class Employee
     {
-        int employeeNumber;
-        string employeeName;
-        string employeeActivity;
+        public int employeeNumber;
+        public string employeeName;
+        public string employeeActivity;
         
-        public void InitializeEmployee()
+        public Employee InitializeEmployee()
         {
             string input;
             bool godkendt = true;
@@ -92,10 +92,10 @@ namespace Hydac_projekt {
                     default:
                         Console.WriteLine("Forkert valg. Prøv igen");
                         Console.ReadKey();
-                        break
+                        break;
                 }
             } while (godkendt == false);
-
+            return this;
         }
     }
 }

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\",
+  "WorkspaceRootPath": "E:\\source\\repos\\hydac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|e:\\source\\repos\\hydac\\hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|e:\\source\\repos\\hydac\\hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Employee.cs",
+              "DocumentMoniker": "E:\\source\\repos\\hydac\\Hydac projekt\\Employee.cs",
               "RelativeDocumentMoniker": "Hydac projekt\\Employee.cs",
-              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Employee.cs",
+              "ToolTip": "E:\\source\\repos\\hydac\\Hydac projekt\\Employee.cs",
               "RelativeToolTip": "Hydac projekt\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T10:49:12.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\hydac\\Hydac projekt\\Program.cs",
               "RelativeDocumentMoniker": "Hydac projekt\\Program.cs",
-              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Program.cs",
+              "ToolTip": "E:\\source\\repos\\hydac\\Hydac projekt\\Program.cs",
               "RelativeToolTip": "Hydac projekt\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T10:43:15.774Z",
               "EditorCaption": ""
