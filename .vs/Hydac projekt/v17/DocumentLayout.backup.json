@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nfoll\\source\\repos\\Hydac projekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac projekt\\hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac projekt\\hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac projekt\\Hydac projekt\\Employee.cs",
+              "RelativeDocumentMoniker": "Hydac projekt\\Employee.cs",
+              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac projekt\\Hydac projekt\\Employee.cs*",
+              "RelativeToolTip": "Hydac projekt\\Employee.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAEwD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:49:12.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac projekt\\Hydac projekt\\Program.cs",
+              "RelativeDocumentMoniker": "Hydac projekt\\Program.cs",
+              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac projekt\\Hydac projekt\\Program.cs",
+              "RelativeToolTip": "Hydac projekt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:43:15.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
