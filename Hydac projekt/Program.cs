@@ -28,6 +28,7 @@
 
             Console.Clear();
             Console.WriteLine($"Du har oprettet {input} ansatte i systemet:");
+
             foreach (Employee employee in employees)
             {
                 Console.WriteLine($" - Navn: {employee.employeeName}, ID: {employee.employeeNumber}, Aktivitet: {employee.employeeActivity}");

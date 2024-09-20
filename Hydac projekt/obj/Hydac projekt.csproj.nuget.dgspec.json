@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {}
+    "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {
+    "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+        "projectUniqueName": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj",
         "projectName": "Hydac projekt",
-        "projectPath": "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+        "projectPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj",
         "packagesPath": "C:\\Users\\nfoll\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\hydac\\Hydac projekt\\obj\\",
+        "outputPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nfoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
