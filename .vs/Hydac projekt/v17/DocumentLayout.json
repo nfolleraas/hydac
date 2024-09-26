@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\nfoll\\source\\repos\\hydac_projekt\\hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,25 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Booking.cs",
+              "RelativeDocumentMoniker": "Hydac projekt\\Booking.cs",
+              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Booking.cs",
+              "RelativeToolTip": "Hydac projekt\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:57:07.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeetingRoom.cs",
+              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\MeetingRoom.cs",
+              "RelativeDocumentMoniker": "Hydac projekt\\MeetingRoom.cs",
+              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\MeetingRoom.cs",
+              "RelativeToolTip": "Hydac projekt\\MeetingRoom.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:48:34.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Guest.cs",
+              "RelativeDocumentMoniker": "Hydac projekt\\Guest.cs",
+              "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Guest.cs",
+              "RelativeToolTip": "Hydac projekt\\Guest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:43:03.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Employee.cs",
               "RelativeDocumentMoniker": "Hydac projekt\\Employee.cs",
               "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Employee.cs",
               "RelativeToolTip": "Hydac projekt\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T10:49:12.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Program.cs",
               "RelativeDocumentMoniker": "Hydac projekt\\Program.cs",
               "ToolTip": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Program.cs",
               "RelativeToolTip": "Hydac projekt\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T10:43:15.774Z",
               "EditorCaption": ""

@@ -4,18 +4,42 @@
     {
         static void Main(string[] args)
         {
-            /*
+            string input;
+            bool isRunning = true;
+            
+            // Mainmenu
             do
             {
                 Console.Clear();
-                Console.WriteLine("Velkommen til tjek-ind system");
-                Console.Write("Indtast medarbejdernummer: ");
+                Console.WriteLine("Velkommen til Hydac");
+                Console.WriteLine();
+                Console.WriteLine("1. Log ind som ansat");
+                Console.WriteLine("2. Log ind som gæst");
+                Console.WriteLine("3. Afslut");
 
-            }
-            */
+                input = Console.ReadLine();
 
-            Employee employee = new Employee();
-            employee.InitializeEmployee();
+                switch (input)
+                {
+                    case "1":
+                        break;
+
+                    case "2":
+
+                        break;
+
+                    case "3":
+                        isRunning = false;
+                        break;
+                    default:
+                        Console.WriteLine("Forkert input. Prøv igen");
+                        
+                }
+
+
+            } while (isRunning);
+
+            
         }
     }
 }
