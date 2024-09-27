@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {}
+    "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {
+    "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+        "projectUniqueName": "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
         "projectName": "Hydac projekt",
-        "projectPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
-        "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\obj\\",
+        "projectPath": "E:\\source\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+        "packagesPath": "C:\\Users\\nfoll\\.nuget\\packages\\",
+        "outputPath": "E:\\source\\repos\\hydac\\Hydac projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\raman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nfoll\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
