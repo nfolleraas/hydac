@@ -25,7 +25,8 @@
                         break;
 
                     case "2":
-
+                        Guest guest = new Guest();
+                        guest.GuestLogin();
                         break;
 
                     case "3":
@@ -33,6 +34,7 @@
                         break;
                     default:
                         Console.WriteLine("Forkert input. Prøv igen");
+                        break;
                         
                 }
 

@@ -24,14 +24,38 @@ namespace Hydac_projekt {
             employees[3] = new Employee { employeeName = "Daniel", employeeNumber = 4, team = "Leder", activity = "Ledig" };
         }
 
-        /*
-        public static void Show()
+
+
+        public string ChooseEmployee()
         {
+            Employee[] filteredEmployees = new Employee[employees.Length];
+            int index = 0;
+            int displayIndex = 1;
+
             foreach (Employee employee in employees)
             {
-                Console.WriteLine($"Navn: {employee.employeeName} - ID: {employee.employeeNumber} - Team: {employee.team} - Aktivitet: {employee.activity}");
+                
+                if (employee.activity == "Ledig")
+
+                filteredEmployees[index] = employee; 
+
+                Console.WriteLine($"{displayIndex}. {employee.employeeName} ");
+
+                index++;
+                displayIndex++;
             }
+
+            index = 1;
+
+            Console.WriteLine("Skriv tallet på den ansatte");
+            
+            int input = int.Parse(Console.ReadLine());
+            Employee selectedEmployee = filteredEmployees[index - 1];
+
+            booking.chosenEmployee = selectedEmployee.employeeName;
+
+            return booking.chosenEmployee;
         }
-        */
+
     }
 }

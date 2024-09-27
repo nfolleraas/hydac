@@ -14,24 +14,34 @@ namespace Hydac_projekt
         private DateTime endTime;
         private bool safetyCheck;
         public string contactPerson;
+        public string chosenEmployee;
 
         public static Booking[] bookings = new Booking[4];
 
-        public void CreateBooking(string companyName)
+        public void CreateBooking(string companyName,Booking booking)
         {
-            Booking booking = new Booking();
 
             bookingId++;
+            booking.bookingId = bookingId;
+            booking.startTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
+
             Console.WriteLine("---Booking---");
             Console.WriteLine();
             Console.WriteLine($"Velkommen {companyName}");
-            startTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
-            Console.WriteLine(startTime);
+
+            Console.Write("Vælg din kontakt person: ");
+            contactPerson = Console.ReadLine();
+
+            Employee employee = new Employee();
+
+            employee.ChooseEmployee(Booking booking);
+            Console.WriteLine(
+
+            Console.ReadKey();
 
             // TODO
-            // Gemme oplysningerne i array
-            // addet starttime
-            // addet guestcount
+            //fix output på chooseEmployee 
+
         }
     }
 

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj": {}
+    "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj": {
+    "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj",
+        "projectUniqueName": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
         "projectName": "Hydac projekt",
-        "projectPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\Hydac projekt.csproj",
-        "packagesPath": "C:\\Users\\nfoll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nfoll\\source\\repos\\Hydac_projekt\\Hydac projekt\\obj\\",
+        "projectPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+        "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nfoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\raman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

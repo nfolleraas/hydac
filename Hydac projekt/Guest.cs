@@ -9,7 +9,7 @@ namespace Hydac_projekt
     public class Guest
     {
         private int guestNumber;
-        private string companyName
+        private string companyName;
 
 
         public static Guest[] guests = new Guest[4];
@@ -37,7 +37,8 @@ namespace Hydac_projekt
             {
                 if (guest.companyName == input)
                 {
-                    Booking.CreateBooking(input);
+                    Booking booking = new Booking();
+                    booking.CreateBooking(input,booking);
                 }
             }
             Console.WriteLine($"Firmanavnet \"{input}\" eksisterer ikke i systemet. Kontakt en administrator.");
