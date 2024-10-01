@@ -9,40 +9,35 @@ namespace Hydac_projekt
     public class Guest
     {
         private int guestNumber;
+        public int GuestNumber { get; set; }
         private string companyName;
+        public string CompanyName { get; set; }
+        private string phoneNumber;
+        public string PhoneNumber { get; set; }
 
-
-        public static Guest[] guests = new Guest[4];
-
-        // Constructor
-        static Guest()
-        {
-            guests[0] = new Guest { companyName = "Micro Technic", guestNumber = 1 };
-            guests[1] = new Guest { companyName = "Tietgen", guestNumber = 2 };
-            guests[2] = new Guest { companyName = "Caverion", guestNumber = 3 };
-            guests[3] = new Guest { companyName = "ITforum", guestNumber = 4 };
-        }
+        public static List<Guest> guests = new List<Guest>();
 
         public void GuestLogin()
         {
-            string input;
+            string inputName;
+            string inputPhone;
 
             Console.Clear();
             Console.WriteLine("---Gæste login---");
             Console.WriteLine();
             Console.Write("Indtast firmanavn: ");
-            input = Console.ReadLine();
+            inputName = Console.ReadLine() ?? "";
+            Console.Write("Indtast telefonnummer: ");
+            inputPhone = Console.ReadLine() ?? "";
 
-            foreach (Guest guest in guests)
+            Guest? guest = guests.FirstOrDefault(guest => guest.companyName == inputName && guest.phoneNumber == inputPhone);
+
+            if (guest != null)
             {
-                if (guest.companyName == input)
-                {
-                    Booking booking = new Booking();
-                    booking.CreateBooking(input,booking);
-                }
-            }
-            Console.WriteLine($"Firmanavnet \"{input}\" eksisterer ikke i systemet. Kontakt en administrator.");
 
+            }
+            
         }
+        
     }
 }

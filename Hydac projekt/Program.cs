@@ -22,10 +22,10 @@
                 switch (input)
                 {
                     case "1":
+                        CreateGuest();
                         break;
 
                     case "2":
-                        Guest guest = new Guest();
                         guest.GuestLogin();
                         break;
 
@@ -41,7 +41,22 @@
 
             } while (isRunning);
 
-            
+            public void CreateGuest()
+            {
+                int index = 0;
+                index++;
+                Guest guest = new Guest();
+                guest.GuestNumber = index;
+                Console.Clear();
+                Console.WriteLine("---Opret gæst---");
+                Console.WriteLine();
+                Console.Write("Indtast firmanavn: ");
+                string input = Console.ReadLine() ?? "";
+                guest.CompanyName = input;
+                Console.Write("Indtast telefonnummer: ");
+                input = Console.ReadLine()?? "";
+                guest.PhoneNumber = input;
+            }
         }
     }
 }
