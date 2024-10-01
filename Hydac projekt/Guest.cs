@@ -28,7 +28,7 @@ namespace Hydac_projekt
             string input;
 
             Console.Clear();
-            Console.WriteLine("---Gæstelogin---");
+            Console.WriteLine("---Gæste login---");
             Console.WriteLine();
             Console.Write("Indtast firmanavn: ");
             input = Console.ReadLine();

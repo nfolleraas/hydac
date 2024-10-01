@@ -34,8 +34,8 @@ namespace Hydac_projekt
 
             Employee employee = new Employee();
 
-            employee.ChooseEmployee(Booking booking);
-            Console.WriteLine(
+           booking.chosenEmployee = employee.ChooseEmployee();
+            Console.WriteLine($"Din booking: {booking.bookingId}, {booking.guestCount}, {booking.startTime}, {booking.contactPerson}, {booking.chosenEmployee}");
 
             Console.ReadKey();
 

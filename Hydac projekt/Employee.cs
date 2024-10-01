@@ -34,12 +34,13 @@ namespace Hydac_projekt {
 
             foreach (Employee employee in employees)
             {
-                
+
                 if (employee.activity == "Ledig")
+                {
+                    filteredEmployees[index] = employee;
 
-                filteredEmployees[index] = employee; 
-
-                Console.WriteLine($"{displayIndex}. {employee.employeeName} ");
+                    Console.WriteLine($"{displayIndex}. {employee.employeeName} ");
+                }
 
                 index++;
                 displayIndex++;
@@ -50,12 +51,35 @@ namespace Hydac_projekt {
             Console.WriteLine("Skriv tallet på den ansatte");
             
             int input = int.Parse(Console.ReadLine());
-            Employee selectedEmployee = filteredEmployees[index - 1];
+            Employee selectedEmployee = filteredEmployees[index];
 
-            booking.chosenEmployee = selectedEmployee.employeeName;
-
-            return booking.chosenEmployee;
+            string chosenEmployee = selectedEmployee.employeeName;
+            
+            return chosenEmployee;
+           
         }
+
+        /*public int EmployeeLogin(int employeeNumber)
+        {
+            string input;
+
+            Console.Clear();
+            Console.WriteLine("---Medarbejder login---");
+            Console.WriteLine();
+            Console.Write("Indtast medarbejdernummer: ");
+            input = Console.ReadLine();
+
+            foreach (Guest guest in guests)
+            {
+                if (guest.companyName == input)
+                {
+                    Booking booking = new Booking();
+                    booking.CreateBooking(input,booking);
+                }
+            }
+            Console.WriteLine($"Firmanavnet \"{input}\" eksisterer ikke i systemet. Kontakt en administrator.");
+
+        }*/
 
     }
 }

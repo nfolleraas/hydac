@@ -8,27 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\raman\\.nuget\\packages\\": {}
+    "/Users/magnusroyalschmidt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+      "projectUniqueName": "/Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/Hydac projekt.csproj",
       "projectName": "Hydac projekt",
-      "projectPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Hydac projekt.csproj",
-      "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\obj\\",
+      "projectPath": "/Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/Hydac projekt.csproj",
+      "packagesPath": "/Users/magnusroyalschmidt/.nuget/packages/",
+      "outputPath": "/Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\raman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/magnusroyalschmidt/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/magnusroyalschmidt/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
