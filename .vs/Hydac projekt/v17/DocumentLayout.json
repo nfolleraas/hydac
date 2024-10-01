@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\raman\\Git\\repos\\hydac\\",
+  "WorkspaceRootPath": "E:\\source\\repos\\hydac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\raman\\git\\repos\\hydac\\hydac projekt\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\raman\\git\\repos\\hydac\\hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\raman\\git\\repos\\hydac\\hydac projekt\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\raman\\git\\repos\\hydac\\hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|e:\\source\\repos\\hydac\\hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|c:\\users\\raman\\git\\repos\\hydac\\hydac projekt\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45DB4-9AFD-4271-A026-0598810EF426}|Hydac projekt\\Hydac projekt.csproj|solutionrelative:hydac projekt\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,82 +13,24 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 237,
+          "DockedWidth": 200,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Booking.cs",
-              "RelativeDocumentMoniker": "Hydac projekt\\Booking.cs",
-              "ToolTip": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Booking.cs",
-              "RelativeToolTip": "Hydac projekt\\Booking.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:57:07.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MeetingRoom.cs",
-              "DocumentMoniker": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\MeetingRoom.cs",
-              "RelativeDocumentMoniker": "Hydac projekt\\MeetingRoom.cs",
-              "ToolTip": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\MeetingRoom.cs",
-              "RelativeToolTip": "Hydac projekt\\MeetingRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:48:34.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Guest.cs",
-              "RelativeDocumentMoniker": "Hydac projekt\\Guest.cs",
-              "ToolTip": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Guest.cs",
-              "RelativeToolTip": "Hydac projekt\\Guest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:43:03.392Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 163,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\hydac\\Hydac projekt\\Program.cs",
               "RelativeDocumentMoniker": "Hydac projekt\\Program.cs",
-              "ToolTip": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Program.cs",
+              "ToolTip": "E:\\source\\repos\\hydac\\Hydac projekt\\Program.cs",
               "RelativeToolTip": "Hydac projekt\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:43:15.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Employee.cs",
-              "RelativeDocumentMoniker": "Hydac projekt\\Employee.cs",
-              "ToolTip": "C:\\Users\\raman\\Git\\repos\\hydac\\Hydac projekt\\Employee.cs",
-              "RelativeToolTip": "Hydac projekt\\Employee.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:49:12.878Z",
+              "WhenOpened": "2024-09-27T19:47:50.817Z",
               "EditorCaption": ""
             }
           ]
