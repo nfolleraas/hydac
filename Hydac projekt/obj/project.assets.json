@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Nikol\\.nuget\\packages\\": {}
+    "C:\\Users\\patri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikol\\Git\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+      "projectUniqueName": "C:\\Users\\patri\\Coding\\hydac\\Hydac projekt\\Hydac projekt.csproj",
       "projectName": "Hydac projekt",
-      "projectPath": "C:\\Users\\Nikol\\Git\\hydac\\Hydac projekt\\Hydac projekt.csproj",
-      "packagesPath": "C:\\Users\\Nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikol\\Git\\hydac\\Hydac projekt\\obj\\",
+      "projectPath": "C:\\Users\\patri\\Coding\\hydac\\Hydac projekt\\Hydac projekt.csproj",
+      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\patri\\Coding\\hydac\\Hydac projekt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

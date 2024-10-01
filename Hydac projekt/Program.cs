@@ -26,7 +26,7 @@
                         break;
 
                     case "2":
-                        guest.GuestLogin();
+                        guest.GuestLogin(guest);
                         break;
 
                     case "3":
@@ -41,12 +41,11 @@
 
             } while (isRunning);
 
-            public void CreateGuest()
+            static void CreateGuest()
             {
-                int index = 0;
-                index++;
+                
                 Guest guest = new Guest();
-                guest.GuestNumber = index;
+                guest.GuestNumber++;
                 Console.Clear();
                 Console.WriteLine("---Opret gæst---");
                 Console.WriteLine();

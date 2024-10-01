@@ -9,7 +9,17 @@ namespace Hydac_projekt
     public class Guest
     {
         private int guestNumber;
-        public int GuestNumber { get; set; }
+        public int GuestNumber 
+        {
+            get 
+            {
+                return guestNumber;
+            }
+            set 
+            {
+                guestNumber = value;
+            }
+        }
         private string companyName;
         public string CompanyName { get; set; }
         private string phoneNumber;
