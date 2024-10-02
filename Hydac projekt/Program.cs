@@ -22,11 +22,11 @@
                 switch (input)
                 {
                     case "1":
-                        CreateGuest();
+                        CheckIn checkIn = new CheckIn();
+                        checkIn.CreateCheckIn();
                         break;
 
                     case "2":
-                        guest.GuestLogin(guest);
                         break;
 
                     case "3":
@@ -45,7 +45,6 @@
             {
                 
                 Guest guest = new Guest();
-                guest.GuestNumber++;
                 Console.Clear();
                 Console.WriteLine("---Opret gæst---");
                 Console.WriteLine();

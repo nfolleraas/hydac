@@ -10,7 +10,7 @@ namespace Hydac_projekt
     {
         private int CheckId = 0;
         private int guestCount;
-        private string startTime;
+        private DateTime startTime;
         private DateTime endTime;
         private bool safetyCheck;
         public string contactPerson;
@@ -18,37 +18,72 @@ namespace Hydac_projekt
 
         public static List<CheckIn> checkIns = new List<CheckIn>();
 
-        public void CreateCheckIn(string companyName,CheckIn checkIns)
+        public void CreateCheckIn()
         {
-            bool isOkay;
             CheckId++;
-            checkIns.CheckId = CheckId;
-            checkIns.startTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
-
             Console.WriteLine("---Check In---");
             Console.WriteLine();
-            Console.WriteLine($"Velkommen {companyName}");
-
-            Console.Write("Vælg din kontakt person: ");
-            contactPerson = Console.ReadLine();
-
-            Console.Write("Hvor mange er i ankommet?: ");
-            string input = Console.ReadLine();
-
+            Console.Write("Indtast firmanavn: ");
+            string input = Console.ReadLine() ?? "";
+            string companyName = input;
+            Console.Write("Indtast Kontakt person: ");
+            input = Console.ReadLine() ?? "";
+            contactPerson = input;
+            Console.Write("Indtast telefonnummer: ");
+            input = Console.ReadLine() ?? "";
+            string phoneNumber = input;
+            bool isokay;
             do
             {
-                if (input.All(char.IsDigit))
+
+               
+                Console.WriteLine("hvor mange er i?");
+                input = Console.ReadLine();
+                try
                 {
                     guestCount = int.Parse(input);
-                    isOkay = true;
+                    isokay = true;
+                }
+                catch
+                {
+                    Console.Write("Fejl må kun indeholde tal: ");
+                    isokay = false;
+                }
+            } while(!isokay);
+            
+            startTime = DateTime.Now;
+            do
+            {
+                if (guestCount > 1)
+                {
+                    Console.WriteLine("Har i læst sikkerhedsfolderen?: ");
                 }
                 else
                 {
-                    Console.WriteLine("Indtastet værdi må kun være tal");
-                    isOkay = false;
+                    Console.WriteLine("Har du læst sikkerhedsfolderen?: ");
                 }
-            } while (isOkay);
+                Console.WriteLine("1:Ja ");
+                Console.WriteLine("2:Nej ");
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        safetyCheck = true;
+                        isokay = true;
+                        break;
+                    case "2":
+                        safetyCheck = false;
+                        isokay = true;
+                        break;
+                    default:
+                        Console.WriteLine("Tast 1 eller 2: ");
+                        isokay = false;
+                        break;
 
+
+                }
+            } while (!isokay);
+
+            Guest guest = new Guest(companyName, contactPerson, phoneNumber);
             // TODO
             //fix output på chooseEmployee 
 

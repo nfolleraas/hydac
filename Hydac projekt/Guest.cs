@@ -8,46 +8,20 @@ namespace Hydac_projekt
 {
     public class Guest
     {
-        private int guestNumber;
-        public int GuestNumber 
-        {
-            get 
-            {
-                return guestNumber;
-            }
-            set 
-            {
-                guestNumber = value;
-            }
-        }
-        private string companyName;
-        public string CompanyName { get; set; }
-        private string phoneNumber;
-        public string PhoneNumber { get; set; }
 
+        public string CompanyName { get; set; }
+        public string ContactPerson { get; set; }
+        public string PhoneNumber { get; set; }
         public static List<Guest> guests = new List<Guest>();
 
-        public void GuestLogin()
+        public Guest(string companyName, string contactPerson, string phoneNumber)
         {
-            string inputName;
-            string inputPhone;
-
-            Console.Clear();
-            Console.WriteLine("---Gæste login---");
-            Console.WriteLine();
-            Console.Write("Indtast firmanavn: ");
-            inputName = Console.ReadLine() ?? "";
-            Console.Write("Indtast telefonnummer: ");
-            inputPhone = Console.ReadLine() ?? "";
-
-            Guest? guest = guests.FirstOrDefault(guest => guest.companyName == inputName && guest.phoneNumber == inputPhone);
-
-            if (guest != null)
-            {
-
-            }
-            
+            CompanyName = companyName;
+            ContactPerson = contactPerson;
+            PhoneNumber = phoneNumber;
         }
-        
+
+
+
     }
 }
