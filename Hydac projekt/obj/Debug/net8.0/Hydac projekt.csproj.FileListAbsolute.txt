@@ -57,3 +57,18 @@ C:/Users/raman/Git/repos/hydac/Hydac projekt/obj/Debug/net8.0/ref/Hydac projekt.
 /Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/obj/Debug/net8.0/Hydac projekt.pdb
 /Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/obj/Debug/net8.0/Hydac projekt.genruntimeconfig.cache
 /Users/magnusroyalschmidt/Desktop/Datamatiker/Projekt/Hydac projekt/hydac/hydac/Hydac projekt/obj/Debug/net8.0/ref/Hydac projekt.dll
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.AssemblyInfoInputs.cache
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.AssemblyInfo.cs
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.csproj.CoreCompileInputs.cache
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.sourcelink.json
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.dll
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\refint\Hydac projekt.dll
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.pdb
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\bin\Debug\net8.0\Hydac projekt.exe
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\bin\Debug\net8.0\Hydac projekt.deps.json
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\bin\Debug\net8.0\Hydac projekt.runtimeconfig.json
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\bin\Debug\net8.0\Hydac projekt.dll
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\bin\Debug\net8.0\Hydac projekt.pdb
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\Hydac projekt.genruntimeconfig.cache
+C:\Users\nfoll\source\repos\Hydac_projekt\Hydac projekt\obj\Debug\net8.0\ref\Hydac projekt.dll

@@ -8,85 +8,31 @@ namespace Hydac_projekt
 {
     public class CheckIn
     {
-        private int CheckId = 0;
-        private int guestCount;
-        private DateTime startTime;
-        private DateTime endTime;
-        private bool safetyCheck;
-        public string contactPerson;
-        public string chosenEmployee;
+        private int CheckId { get; set; } = 0;
+        private int GuestCount { get; set; }
+
+        private string CompanyName { get; set; }
+        private string ContactPerson { get; set; }
+        private string PhoneNumber { get; set; }
+        private string input;
+
+        private DateTime StartTime { get; set; }
+        private DateTime EndTime {  get; set; }
+
+        private bool SafetyCheck { get; set; }
+        private bool isOkay;
+
 
         public static List<CheckIn> checkIns = new List<CheckIn>();
 
-        public void CreateCheckIn()
+        public void UpdateCheckIn()
         {
-            CheckId++;
-            Console.WriteLine("---Check In---");
+            Console.WriteLine("Update Checkin");
             Console.WriteLine();
-            Console.Write("Indtast firmanavn: ");
-            string input = Console.ReadLine() ?? "";
-            string companyName = input;
-            Console.Write("Indtast Kontakt person: ");
+            Console.Write("Indtast navn på den gæst du vil håndtere: ");
             input = Console.ReadLine() ?? "";
-            contactPerson = input;
-            Console.Write("Indtast telefonnummer: ");
-            input = Console.ReadLine() ?? "";
-            string phoneNumber = input;
-            bool isokay;
-            do
-            {
 
-               
-                Console.WriteLine("hvor mange er i?");
-                input = Console.ReadLine();
-                try
-                {
-                    guestCount = int.Parse(input);
-                    isokay = true;
-                }
-                catch
-                {
-                    Console.Write("Fejl må kun indeholde tal: ");
-                    isokay = false;
-                }
-            } while(!isokay);
-            
-            startTime = DateTime.Now;
-            do
-            {
-                if (guestCount > 1)
-                {
-                    Console.WriteLine("Har i læst sikkerhedsfolderen?: ");
-                }
-                else
-                {
-                    Console.WriteLine("Har du læst sikkerhedsfolderen?: ");
-                }
-                Console.WriteLine("1:Ja ");
-                Console.WriteLine("2:Nej ");
-                switch (Console.ReadLine())
-                {
-                    case "1":
-                        safetyCheck = true;
-                        isokay = true;
-                        break;
-                    case "2":
-                        safetyCheck = false;
-                        isokay = true;
-                        break;
-                    default:
-                        Console.WriteLine("Tast 1 eller 2: ");
-                        isokay = false;
-                        break;
-
-
-                }
-            } while (!isokay);
-
-            Guest guest = new Guest(companyName, contactPerson, phoneNumber);
-            // TODO
-            //fix output på chooseEmployee 
-
+            foreach ()
         }
     }
 

@@ -12,6 +12,7 @@ namespace Hydac_projekt
         public string CompanyName { get; set; }
         public string ContactPerson { get; set; }
         public string PhoneNumber { get; set; }
+
         public static List<Guest> guests = new List<Guest>();
 
         public Guest(string companyName, string contactPerson, string phoneNumber)
