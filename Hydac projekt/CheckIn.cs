@@ -8,31 +8,35 @@ namespace Hydac_projekt
 {
     public class CheckIn
     {
-        private int CheckId { get; set; } = 0;
-        private int GuestCount { get; set; }
+        public int CheckId { get; set; } = 0;
+        public string CompanyName { get; set; }
+        public string ContactPerson { get; set; }
+        public int GuestCount { get; set; }
+        public string PhoneNumber { get; set; }
 
-        private string CompanyName { get; set; }
-        private string ContactPerson { get; set; }
-        private string PhoneNumber { get; set; }
-        private string input;
+        public string input;
 
-        private DateTime StartTime { get; set; }
-        private DateTime EndTime {  get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime {  get; set; }
 
-        private bool SafetyCheck { get; set; }
-        private bool isOkay;
-
-
+        public bool SafetyCheck { get; set; }
         public static List<CheckIn> checkIns = new List<CheckIn>();
-
-        public void UpdateCheckIn()
+        
+        
+        public void UpdateCheckIn(CheckIn CheckIn, Employee employee)
         {
             Console.WriteLine("Update Checkin");
             Console.WriteLine();
             Console.Write("Indtast navn på den gæst du vil håndtere: ");
             input = Console.ReadLine() ?? "";
 
-            foreach ()
+            foreach (CheckIn checkIn in checkIns) 
+            {
+                if (CheckIn.CompanyName == input) 
+                {
+                    CheckIn.CompanyName = employee.EmployeeName;
+                }
+            }
         }
     }
 

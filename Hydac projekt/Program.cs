@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-
+        
         static void Main(string[] args)
         {
             string input;
@@ -55,7 +55,10 @@
         }
         public void CreateCheckIn(CheckIn checkIn)
         {
-            CheckId++;
+            string input;
+            bool isOkay = true;
+
+            checkIn.CheckId++;
             Console.WriteLine("---Check In---");
             Console.WriteLine();
 
@@ -73,6 +76,7 @@
 
             do
             {
+                
                 Console.WriteLine("hvor mange er i?");
                 input = Console.ReadLine();
                 try
@@ -125,12 +129,9 @@
                 }
             } while (isOkay == false);
 
-            Guest guest = new Guest(checkIn.CompanyName, checkIn.ContactPerson, checkIn.PhoneNumber);
+        Guest guest = new Guest(checkIn.CompanyName, checkIn.ContactPerson, checkIn.PhoneNumber);
 
-            checkIns.Add(new CheckIn());
-
-            Console.WriteLine($"{companyName}, {contactPerson}, {phoneNumber}, {guestCount}, {safetyCheck}");
-            Console.ReadKey();
+        CheckIn.checkIns.Add(checkIn);
 
         }
     }
