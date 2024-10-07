@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Hydac_projekt
 {
-    internal class BookingLog
+    internal class CheckInLog
     {
+        int id;
+        DateTime date;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hydac projekt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0f7a21a388338d6f6cac45ca0b0ae760fc95932")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7198c9bacb033cf269ec82b403443b8ca5a799b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hydac projekt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hydac projekt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
