@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Net.NetworkInformation;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +11,7 @@ namespace Hydac_projekt
 {
     public class CheckIn
     {
+        public string CheckInEmployee { get; set; }
         public int CheckId { get; set; } = 0;
         public string CompanyName { get; set; }
         public string ContactPerson { get; set; }
@@ -25,19 +29,28 @@ namespace Hydac_projekt
         
         public void UpdateCheckIn(CheckIn CheckIn, Employee employee)
         {
-            Console.WriteLine("Update Checkin");
-            Console.WriteLine();
-            Console.Write("Indtast navn på den gæst du vil håndtere: ");
-            input = Console.ReadLine() ?? "";
-
-            foreach (CheckIn checkIn in checkIns) 
+            bool IsOkay = true;
+            do
             {
-                if (CheckIn.CompanyName == input) 
+                Console.WriteLine("Update Checkin");
+                Console.WriteLine();
+                Console.Write("Indtast navn på den gæst du vil håndtere: ");
+                input = Console.ReadLine() ?? "";
+
+                CheckIn? valgCheckIn = checkIns.FirstOrDefault(checkin => checkin.CompanyName == input);
+
+                if (valgCheckIn != null)
                 {
-                    CheckIn.CompanyName = employee.EmployeeName;
+                    CheckIn.CheckInEmployee = employee.EmployeeName;
+                    IsOkay = true;
                 }
-            }
-        }
+                else
+                {
+                    Console.WriteLine("Forkert indput, ingen gæst med dette navn");
+                    IsOkay = false;
+                }
+            } while (IsOkay);
+        } 
     }
 
 }

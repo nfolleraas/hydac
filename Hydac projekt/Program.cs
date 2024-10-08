@@ -1,8 +1,8 @@
 ﻿namespace Hydac_projekt
 {
-    internal class Program
+    public class Program
     {
-        
+        public static CheckIn checkIn = new CheckIn();
         static void Main(string[] args)
         {
             string input;
@@ -27,11 +27,10 @@
 
                 input = Console.ReadLine();
 
-                switch (input)
+                switch (input) 
                 {
-                    case "1":
-                        CheckIn checkIn = new CheckIn();
-                        checkIn.CreateCheckIn(checkIn);
+                    case "1":                        
+                        CreateCheckIn(checkIn);
                         break;
 
                     case "2":
@@ -53,7 +52,7 @@
                 }
             } while (isRunning);
         }
-        public void CreateCheckIn(CheckIn checkIn)
+        public static void CreateCheckIn(CheckIn checkIn)
         {
             string input;
             bool isOkay = true;
