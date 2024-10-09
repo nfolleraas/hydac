@@ -1,13 +1,21 @@
-﻿namespace Hydac_projekt
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Hydac_projekt
 {
     public class Program
     {
-        public static CheckIn checkIn = new CheckIn();
+        private static CheckIn _checkIn;
+        public static CheckIn CheckIn 
+        {
+            get { return _checkIn; }
+        }
+
+        static int index;
         static void Main(string[] args)
         {
             string input;
             bool isRunning = true;
-            
+
             Employee.employees.Add(new Employee() { EmployeeName = "Kasper", EmployeeNumber = 1, Team = "Montage", Password = "and" });
             Employee.employees.Add(new Employee() { EmployeeName = "Daniel", EmployeeNumber = 2, Team = "Salg", Password = "spand" });
             Employee.employees.Add(new Employee() { EmployeeName = "Jesper", EmployeeNumber = 3, Team = "Leder", Password = "fugl" });
@@ -29,8 +37,8 @@
 
                 switch (input) 
                 {
-                    case "1":                        
-                        CreateCheckIn(checkIn);
+                    case "1":
+                        CreateCheckIn();
                         break;
 
                     case "2":
@@ -52,12 +60,16 @@
                 }
             } while (isRunning);
         }
-        public static void CreateCheckIn(CheckIn checkIn)
+        public static void CreateCheckIn()
         {
+            CheckIn checkIn = new CheckIn();
+
             string input;
             bool isOkay = true;
+            index++;
 
-            checkIn.CheckId++;
+
+            checkIn.CheckId = index;
             Console.WriteLine("---Check In---");
             Console.WriteLine();
 
@@ -128,9 +140,14 @@
                 }
             } while (isOkay == false);
 
-        Guest guest = new Guest(checkIn.CompanyName, checkIn.ContactPerson, checkIn.PhoneNumber);
+            Guest guest = new Guest(checkIn.CompanyName, checkIn.ContactPerson, checkIn.PhoneNumber);
 
-        CheckIn.checkIns.Add(checkIn);
+            CheckIn.checkIns.Add(checkIn);
+
+            Console.WriteLine($"CheckIn: {checkIn.CheckId}, {checkIn.CompanyName}, {checkIn.ContactPerson}, {checkIn.PhoneNumber}, {checkIn.GuestCount}, {checkIn.SafetyCheck}");
+            Console.ReadKey();
+
+            _checkIn = checkIn;
 
         }
     }

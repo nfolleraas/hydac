@@ -43,7 +43,7 @@ namespace Hydac_projekt
                         switch (Console.ReadLine())
                         { 
                             case "1":
-                                Program.checkIn.UpdateCheckIn(Program.checkIn, employee);
+                                Program.CheckIn.UpdateCheckIn(Program.CheckIn, employee);
                                 isOkay = true;
                                 break;
                             case "2":

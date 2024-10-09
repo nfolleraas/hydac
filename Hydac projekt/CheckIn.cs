@@ -27,7 +27,7 @@ namespace Hydac_projekt
         public static List<CheckIn> checkIns = new List<CheckIn>();
         
         
-        public void UpdateCheckIn(CheckIn CheckIn, Employee employee)
+        public void UpdateCheckIn(CheckIn checkIn, Employee employee)
         {
             bool IsOkay = true;
             do
@@ -41,7 +41,7 @@ namespace Hydac_projekt
 
                 if (valgCheckIn != null)
                 {
-                    CheckIn.CheckInEmployee = employee.EmployeeName;
+                    checkIn.CheckInEmployee = employee.EmployeeName;
                     IsOkay = true;
                 }
                 else
@@ -49,7 +49,13 @@ namespace Hydac_projekt
                     Console.WriteLine("Forkert indput, ingen gæst med dette navn");
                     IsOkay = false;
                 }
-            } while (IsOkay);
+            } while (!IsOkay);
+
+            foreach (var check in checkIns)
+            {
+                Console.WriteLine($"{check.CheckId}, {check.CompanyName}, {check.ContactPerson}, {check.GuestCount}, {checkIn.PhoneNumber}, {check.CheckInEmployee}");
+            }
+            Console.ReadKey();
         } 
     }
 
